@@ -195,3 +195,30 @@ def test_sample_refuses_a_long_window():
 
     with pytest.raises(SystemExit, match="allow-long"):
         cli.main(["sample"])  # the configured full year
+
+
+def test_default_fetch_downloads_everything_build_needs(tmp_path, monkeypatch):
+    from ercot_rsm import cli
+    from ercot_rsm.data import ercot_archive
+
+    monkeypatch.setattr(config, "ROOT", tmp_path)
+    calls = {}
+    monkeypatch.setattr(gs, "fetch_all", lambda study, force=False, keys=(): calls.setdefault("grid", list(keys)))
+    monkeypatch.setattr(weather, "fetch_all", lambda study, force=False: calls.setdefault("weather", True))
+    monkeypatch.setattr(gas, "fetch", lambda study, force=False: calls.setdefault("gas", True))
+    monkeypatch.setattr(ercot_archive, "fetch",
+                        lambda study, kind, force=False: calls.setdefault("archive", []).append(kind))
+    cli.main(["--start", "2025-03-01", "--end", "2025-03-08", "fetch"])
+    assert set(cli.GRID_KEYS) <= set(calls["grid"])
+    assert set(cli.FORECAST_KEYS) <= set(calls["grid"])          # DA-time forecasts (D-28)
+    assert calls["archive"] == ["da", "rt"]                        # settled prices (D-31)
+    assert calls["weather"] and calls["gas"]
+
+
+def test_build_refuses_a_panel_without_forecasts(tmp_path, monkeypatch):
+    from ercot_rsm import cli
+
+    monkeypatch.setattr(config, "ROOT", tmp_path)
+    _write_raw_like_fetchers(config.load(start="2025-11-01", end="2025-11-08"))  # prices, load, weather, gas only
+    with pytest.raises(SystemExit, match="fetch --only forecasts"):
+        cli.main(["--start", "2025-11-01", "--end", "2025-11-08", "build"])

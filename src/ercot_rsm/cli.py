@@ -2,8 +2,9 @@
 
     datasets   list gridstatus.io ERCOT dataset ids and check the configured ones
     sample     fetch + build + print every source and the joined panel (use on ~1 week)
-    fetch      download prices, load, weather and gas into data/raw/<window>/
-               (--only grid|da|rt|load|fuel_mix|weather|gas|ercot|crosscheck)
+    fetch      download everything `build` needs into data/raw/<window>/: gridstatus prices, load and
+               fuel mix, the DA-time forecasts, weather, gas, and ERCOT's settled price archives when
+               [prices] source = "ercot_archive" (--only grid|forecasts|prices|weather|gas|ercot|crosscheck|...)
     build      assemble data/processed/<window>/panel.parquet and a coverage report
     audit      data audit -> data/processed/<window>/audit/ (read audit.md before modelling)
     eda        exploratory tables and figures -> results/<window>/eda/
@@ -85,11 +86,19 @@ FORECAST_KEYS = ("load_fc", "wind_fc", "solar_fc", "load_fc_sens", "wind_fc_sens
 CROSSCHECK_STATIONS = (("IAH", "2025-07"), ("DFW", "2025-01"))  # a summer and a winter month
 
 
+def default_sources(study) -> list[str]:
+    """What a plain `fetch` downloads: every input `build` needs for the configured study."""
+    sources = ["grid", "forecasts", "weather", "gas"]
+    if study.section("prices").get("source") == "ercot_archive":
+        sources.append("prices")
+    return sources
+
+
 def cmd_fetch(study, args):
     from .data import ercot_official, gas, gridstatus_fetch as gs, weather
 
     print(f"window {study.tag} -> {study.raw_dir}")
-    only = set(args.only or ["grid", "weather", "gas"])
+    only = set(args.only or default_sources(study))
     keys = [k for k in GRID_KEYS if k in only or "grid" in only]
     keys += [k for k in FORECAST_KEYS if k in only or "forecasts" in only]
     if args.no_fuel_mix:
@@ -124,7 +133,10 @@ def _build(study, raw, out_dir: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 def cmd_build(study, args):
-    _, q = _build(study, _load_raw(study), study.processed_dir)
+    raw = _load_raw(study)
+    if raw.forecasts is None:
+        raise SystemExit(f"no DA-time forecasts for {study.tag}; run `fetch --only forecasts` for this window first")
+    _, q = _build(study, raw, study.processed_dir)
     print(q.to_string())
 
 

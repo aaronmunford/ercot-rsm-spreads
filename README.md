@@ -80,7 +80,7 @@ cp .env.example .env            # add a free gridstatus.io API key
 set -a; source .env; set +a
 
 make test                       # 125 tests, no network
-make fetch build audit          # pull, assemble and audit the 2025 panel (cached; re-runs cost nothing)
+make fetch crosscheck build audit   # pull every source (settled prices, load, forecasts, weather, gas) and the cross-check series, then assemble and audit the 2025 panel (cached; re-runs cost nothing)
 make eda fit surprise basis     # exploratory tables, model ladder and extensions -> results/<window>/
 make report-assets              # the report's tables and five figures -> results/<window>/report/
 ```
