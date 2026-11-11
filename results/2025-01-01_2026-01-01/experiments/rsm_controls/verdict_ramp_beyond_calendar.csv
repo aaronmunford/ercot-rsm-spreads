@@ -1,0 +1,7 @@
+response,model,reference,fwd_gain_vs_M2C_range,fwd_gain_vs_M2C_median,folds_beating_M2C,yr_gain_vs_M2C_range,material,zones_stable,stable
+spread,M2+C+Rrt,M2+C,-0.017 to +0.000,-0.0012812938284811892,"4,4,2,4",+0.002 to +0.007,False,0,False
+spread,M2+C+Rfc,M2+C,-0.009 to +0.001,-0.0003580699355424377,"4,4,3,5",-0.003 to -0.001,False,0,False
+abs_spread,M2+C+Rrt,M2+C,-0.016 to +0.004,0.00019388333988179518,"7,7,2,5",-0.037 to -0.005,False,0,False
+abs_spread,M2+C+Rfc,M2+C,-0.001 to +0.004,0.0008279861181366144,"8,7,6,6",-0.049 to -0.015,False,0,False
+imhr_da,M2+C+Rrt,M2+C,+0.012 to +0.028,0.024712757979319544,"7,7,5,8",-0.220 to -0.062,True,0,False
+imhr_da,M2+C+Rfc,M2+C,+0.009 to +0.028,0.02099644940041817,"7,7,7,8",-0.293 to -0.125,True,0,False

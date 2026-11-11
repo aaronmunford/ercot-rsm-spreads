@@ -1,0 +1,40 @@
+group,variable,label,median,p25,p75
+ordinary,system_net_load_mw,System net load (GW),34.35701833333337,25.83908416666669,42.36607458333339
+ordinary,net_load_fc,Net load expected at 09:45 D−1 (GW),33.612869458007815,24.49823908691406,41.71048933105469
+ordinary,net_load_err_avail,"Net-load surprise, + = tighter (GW)",-0.06024121582030457,-1.4840119873046873,1.3589699707031184
+ordinary,wind_err_hsl,Wind availability surprise (GW),0.10365999999999985,-0.8969500000000007,1.3471899999999988
+ordinary,solar_err_hsl,Solar availability surprise (GW),0.00126,0.00035999999999999997,0.15394000000000232
+ordinary,load_err,Zone load surprise (GW),0.022042866815186246,-0.27758765874633806,0.3140730658782927
+ordinary,net_load_ramp,Net-load change from previous hour (GW),0.005930000000003929,-1.5499799999999995,1.4203600000000043
+ordinary,temp_f,Zone temperature (°F),73.5,60.7,82.0
+ordinary,rt_intrahour_std,Std of the four 15-min RT prices ($/MWh),1.5225677301957212,0.6701912016757547,4.2433978118874895
+ordinary,share_top_decile,Share in top net-load decile,0.09521619135234591,,
+ordinary,share_ramp_hours,"Share in ramp hours (HB 5–7, 17–21)",0.32885809567617297,,
+ordinary,zone_hours,Zone-hours,34784.0,,
+ordinary,days,Operating days,366.0,,
+RT_above_DA_extreme,system_net_load_mw,System net load (GW),47.74636000000001,40.974643333333326,54.271505
+RT_above_DA_extreme,net_load_fc,Net load expected at 09:45 D−1 (GW),45.701044824218755,37.29420012207032,53.80249744262696
+RT_above_DA_extreme,net_load_err_avail,"Net-load surprise, + = tighter (GW)",0.4488893505859384,-0.4998905590820356,1.304354370117186
+RT_above_DA_extreme,wind_err_hsl,Wind availability surprise (GW),-0.8589899999999998,-2.07609,-0.18278999999999995
+RT_above_DA_extreme,solar_err_hsl,Solar availability surprise (GW),0.0023799999999999997,-0.39560000000000034,0.47273000000000004
+RT_above_DA_extreme,load_err,Zone load surprise (GW),-0.19722830413208248,-0.5216663156402565,0.33702990144043043
+RT_above_DA_extreme,net_load_ramp,Net-load change from previous hour (GW),1.950569999999996,0.47040250000000383,3.571737500000001
+RT_above_DA_extreme,temp_f,Zone temperature (°F),79.88,69.48666666666668,90.3125
+RT_above_DA_extreme,rt_intrahour_std,Std of the four 15-min RT prices ($/MWh),211.40813045885457,128.8134496031887,539.3413859392787
+RT_above_DA_extreme,share_top_decile,Share in top net-load decile,0.44329896907216493,,
+RT_above_DA_extreme,share_ramp_hours,"Share in ramp hours (HB 5–7, 17–21)",0.7216494845360825,,
+RT_above_DA_extreme,zone_hours,Zone-hours,194.0,,
+RT_above_DA_extreme,days,Operating days,45.0,,
+DA_above_RT_extreme,system_net_load_mw,System net load (GW),55.92569,46.698748333333334,64.63201333333333
+DA_above_RT_extreme,net_load_fc,Net load expected at 09:45 D−1 (GW),58.1039795654297,50.25182016601563,67.00354907226561
+DA_above_RT_extreme,net_load_err_avail,"Net-load surprise, + = tighter (GW)",-0.050669331054694816,-0.5000795654297053,0.3987409033203157
+DA_above_RT_extreme,wind_err_hsl,Wind availability surprise (GW),-1.0033550000000002,-1.2339500000000003,-0.7727600000000002
+DA_above_RT_extreme,solar_err_hsl,Solar availability surprise (GW),0.5752249999999997,0.10181000000000001,1.0486399999999994
+DA_above_RT_extreme,load_err,Zone load surprise (GW),-0.41017549189453256,-1.0989772086364746,0.08572304002074997
+DA_above_RT_extreme,net_load_ramp,Net-load change from previous hour (GW),1.8342249999999987,0.4697899999999936,3.467830000000009
+DA_above_RT_extreme,temp_f,Zone temperature (°F),81.14491666666666,23.84825,89.9361
+DA_above_RT_extreme,rt_intrahour_std,Std of the four 15-min RT prices ($/MWh),18.543422820576332,9.05664535023869,33.03430901144484
+DA_above_RT_extreme,share_top_decile,Share in top net-load decile,0.7215189873417721,,
+DA_above_RT_extreme,share_ramp_hours,"Share in ramp hours (HB 5–7, 17–21)",0.8417721518987342,,
+DA_above_RT_extreme,zone_hours,Zone-hours,158.0,,
+DA_above_RT_extreme,days,Operating days,17.0,,

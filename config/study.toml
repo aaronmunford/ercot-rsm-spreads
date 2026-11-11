@@ -1,0 +1,135 @@
+# Study configuration. Every choice here is a modelling decision; the reasoning
+# and the alternatives for each are in DECISIONS.md under the tag in brackets.
+
+[study]
+# Operating days in Central Prevailing Time, start inclusive, end exclusive. [D-01]
+# Calendar 2025. Samples override these from the command line (`make sample`).
+start = "2025-01-01"
+end = "2026-01-01"
+market_tz = "America/Chicago"
+# ERCOT's Real-Time Co-optimization + Batteries (RTC+B) go-live. RT price
+# formation changes on this date, so the panel carries a regime indicator. [D-02]
+# Verified 2026-10-01: ERCOT news release 12052025-ercot-goes-live (first operating day).
+regime_break = "2025-12-05"
+
+# --------------------------------------------------------------------------
+# Zones. Price at the load-zone settlement point; load by ERCOT forecast zone;
+# temperature as a weighted average of airport stations in the zone. [D-03, D-06]
+# Weights are rough metro-population shares (West tilted to the Permian, where
+# industrial load concentrates). Lat/lon are only used by the Open-Meteo source.
+# --------------------------------------------------------------------------
+
+[zones.houston]
+price_point = "LZ_HOUSTON"
+load_column = "houston"
+stations = { IAH = 0.5, HOU = 0.5 }
+
+[zones.north]
+price_point = "LZ_NORTH"
+load_column = "north"
+stations = { DFW = 0.5, DAL = 0.4, ACT = 0.1 }
+
+[zones.south]
+price_point = "LZ_SOUTH"
+load_column = "south"
+stations = { SAT = 0.38, AUS = 0.33, MFE = 0.13, CRP = 0.06, BRO = 0.06, LRD = 0.04 }
+
+[zones.west]
+price_point = "LZ_WEST"
+load_column = "west"
+stations = { MAF = 0.35, ODO = 0.35, ABI = 0.18, SJT = 0.12 }
+
+[stations]
+# ICAO-less FAA ids as the Iowa Environmental Mesonet expects them; lat, lon.
+IAH = [29.98, -95.34]
+HOU = [29.65, -95.28]
+DFW = [32.90, -97.04]
+DAL = [32.85, -96.85]
+ACT = [31.61, -97.23]
+SAT = [29.53, -98.47]
+AUS = [30.19, -97.67]
+MFE = [26.18, -98.24]
+CRP = [27.77, -97.50]
+BRO = [25.91, -97.42]
+LRD = [27.54, -99.46]
+MAF = [31.94, -102.20]
+ODO = [31.92, -102.39]
+ABI = [32.41, -99.68]
+SJT = [31.36, -100.50]
+
+# --------------------------------------------------------------------------
+# Sources
+# --------------------------------------------------------------------------
+
+[prices]
+# Final settled prices from ERCOT's official annual archives (NP4-180-ER / NP6-785-ER).
+# gridstatus holds prices as first published; on 8 days in 2025 ERCOT corrected them
+# afterwards (incl. a $1,596 RT spike on 2025-06-30 15:30). gridstatus is the cross-check. [D-31]
+source = "ercot_archive"
+rt_point_type = "LZ"   # matches the gridstatus LZ_* series exactly outside corrected days
+
+[gridstatus]
+# Confirmed: gridstatusio's own test-suite queries this id with location LZ_*.
+da_dataset = "ercot_spp_day_ahead_hourly"
+# UNVERIFIED ids — `python -m ercot_rsm.cli datasets` lists the real ones;
+# fix these before the first full pull.
+rt_dataset = "ercot_spp_real_time_15_min"
+load_dataset = "ercot_load_by_forecast_zone"
+# Confirmed id (used in gridstatusio's tests). Optional: system wind + solar for net load.
+fuel_mix_dataset = "ercot_fuel_mix"
+# gridstatus DART spread, pulled for one week only to confirm the spread sign. [D-19]
+dart_dataset = "ercot_spp_dart_15_min"
+# DA-time forecasts and the matching actuals (verified ids, 2026-10-10). [D-28]
+load_forecast_dataset = "ercot_load_forecast_by_forecast_zone"
+wind_dataset = "ercot_wind_actual_and_forecast_by_geo_region_hourly"
+solar_dataset = "ercot_solar_actual_and_forecast_by_geo_region_hourly"
+location_column = "location"
+
+[weather]
+source = "iem"            # "iem" (ASOS observations) or "open_meteo" (ERA5 reanalysis). [D-07]
+max_gap_hours = 3         # interpolate a station's gaps up to this length, no further
+min_weight_coverage = 0.5 # zone temperature is missing if available station weight < this
+plausible_range_f = [-20, 125]  # readings outside are sensor faults and are dropped (BRO -63 F, 2024-04-03)
+degree_base_f = 65.0
+
+[gas]
+source = "eia_xls"        # "eia_xls" (EIA workbook, no key), "eia_api" (needs EIA_API_KEY) or "csv". [D-08]
+series = "RNGWHHD"        # Henry Hub daily spot, $/MMBtu
+csv_path = "data/raw/gas/henry_hub.csv"
+# Power for operating day D is priced against gas traded on the last trade date
+# strictly before D (weekend/holiday packages traded the prior business day). [D-09]
+alignment = "previous_trade_date"
+min_price = 0.50          # $/MMBtu; IMHR is undefined below this. [D-10]
+
+[forecasts]
+# Information cutoff for "what the market expected": the newest forecast published by
+# this market time on D-1. DAM bids close 10:00 D-1 and can only be extended (NPRR478),
+# so 09:45 is conservative on every day. Load forecasts post at :30, wind/solar at :55,
+# so 09:45 selects the 09:30 load and 08:55 wind/solar reports. 09:00 is a sensitivity. [D-28]
+cutoff = "09:45:00"
+sensitivity_cutoff = "09:00:00"
+
+[features]
+on_peak_hour_beginning = [6, 21]   # HE07–HE22 local, weekdays, excl. NERC holidays
+
+[rsm]
+# Temperature, ACTUAL zonal load and gas, Load anomaly is a comparison only. [D-11]
+factors = ["temp_f", "load_mw", "gas_price"]
+alt_factors = ["temp_f", "load_anom", "gas_price"]
+responses = ["spread", "abs_spread", "imhr_da"]    # spread (primary), its magnitude, DA IMHR. [D-12, D-24]
+order = 2
+coding = "quantile"                                # [D-13]
+coding_quantiles = [0.01, 0.99]
+# The primary spread response is NOT winsorised: its tails are the object of study.
+# Winsorising and asinh appear only in the sensitivity table. [D-14, revised 2026-10-10]
+winsorize = [0.0, 1.0]
+sensitivity_winsorize = [0.005, 0.995]
+asinh_scale = 10.0
+cov_type = "HAC"                                   # [D-15, D-26]
+hac_maxlags = 48
+lof_bins = 8                                       # near-replicate grid. [D-16]
+selection_cutoff = 0.01                            # NCSS hierarchical elimination, R^2. [D-18]
+block_cols = ["regime"]                            # pre/post RTC+B nuisance intercept only. [D-27]
+hour_block = "hour_beginning"                      # model M3
+cv_min_train_months = 3                            # forward CV tests April..December. [D-25]
+quantile_surfaces = true                           # tau = 0.05/0.5/0.95 on the M2 design

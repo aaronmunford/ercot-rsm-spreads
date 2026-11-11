@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# data: raw is rebuildable with `make fetch`; synthetic is never evidence
+data/raw/
+data/synthetic/
+data/processed/*/
+results/synthetic/
+
+# python / jupyter
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+.DS_Store

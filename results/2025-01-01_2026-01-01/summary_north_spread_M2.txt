@@ -1,0 +1,64 @@
+RESPONSE SURFACE REGRESSION — spread
+
+Descriptive Statistics
+           count     mean       min      max
+temp_f     8,760  68.5247      12.7    102.2
+load_mw    8,760 18,374.5  10,984.9 32,432.3
+gas_price  8,760   3.5375      2.65     9.86
+spread     8,760  0.74459 -2,128.52  696.587
+
+Model Summary
+  n = 8,760   order = 2   terms = 11   R^2 = 0.009405   adj R^2 = 0.008272
+  hierarchical selection removed: load_mw*gas_price, temp_f*gas_price, load_mw^2, temp_f^2, gas_price^2, temp_f*load_mw, load_mw, gas_price, temp_f
+  coding  z = (x - center) / half_range
+    temp_f         center      60.59   half_range      35.35
+    load_mw        center  2.071e+04   half_range       8802
+    gas_price      center      6.255   half_range      3.605
+
+Sequential ANOVA (classical F; pure error from 8^k near-replicate cells, 165 occupied)
+               df          ss       ms       F     p_value     incr_r2    F_pe        p_pe
+source                                                                                    
+blocks          1    2,680.69 2,680.69  1.5399    0.214666 0.000174354 1.58772    0.207686
+regression      9     141,916 15,768.5 9.05809 9.42689e-14  0.00923033 9.33936 2.99289e-14
+linear          3    83,051.4 27,683.8 15.9028 2.61422e-10  0.00540172 16.3966 1.27148e-10
+quadratic       3    36,537.5 12,179.2 6.99623 0.000107065  0.00237642 7.21348 7.84592e-05
+lin x lin       3    22,327.4 7,442.47 4.27527  0.00504915  0.00145219 4.40803   0.0041946
+total error  8749 1.52304e+07 1,740.82                        0.990595                    
+lack of fit   163     733,900 4,502.45 2.66672 1.13862e-25   0.0477333                    
+pure error   8586 1.44965e+07 1,688.39                        0.942862                    
+
+ANOVA by factor (all terms containing the factor)
+           df  last_ss       ms       F     p_value    term_r2    F_pe        p_pe
+factor                                                                            
+temp_f      4 45,727.4 11,431.9 6.56695 2.84198e-05 0.00297414 6.77086 1.94761e-05
+load_mw     4 34,964.1 8,741.02 5.02122 0.000485046 0.00227409 5.17714 0.000365439
+gas_price   4 52,830.9 13,207.7 7.58708 4.25366e-06 0.00343615 7.82267 2.73825e-06
+
+Estimation (coded units; SEs: HAC)
+                       group      coef      se         t  p_value     last_r2   se_pe       p_pe
+Intercept          intercept   6.22859 5.54344    1.1236 0.261184             3.82142   0.103156
+regime_pre             block -0.279175 2.72357 -0.102503 0.918357  2.7299e-06 1.77065   0.874722
+temp_f                linear   13.9529 15.0654   0.92616 0.354363 0.000507796 6.48858  0.0315527
+load_mw               linear   3.87306  9.3751  0.413122 0.679518 5.98714e-05 5.24533   0.460303
+gas_price             linear   17.8021 14.6975   1.21124 0.225805  0.00112552 5.56062  0.0013723
+temp_f^2           quadratic  -5.45286 8.88374 -0.613802 0.539346 0.000149451 4.67416   0.243406
+temp_f*load_mw     lin x lin   7.92643 15.7997  0.501681 0.615892 0.000772559 2.98841 0.00800712
+temp_f*gas_price   lin x lin   10.2985 19.7605  0.521167 0.602251  0.00015904 8.55754   0.228839
+load_mw^2          quadratic   2.72795 11.3385  0.240592 0.809871 0.000171209 2.18475   0.211834
+load_mw*gas_price  lin x lin   5.07199  11.941  0.424753 0.671017 6.44463e-05 6.62077   0.443654
+gas_price^2        quadratic   12.8832  13.543  0.951279 0.341463  0.00099102 4.28856 0.00267147
+
+Term-group Wald tests (HAC)
+           df     chi2  p_value
+group                          
+linear      3  4.57683 0.205538
+quadratic   3  2.13811 0.544242
+lin x lin   3 0.429808 0.934018
+
+Optimum / canonical analysis
+  stationary point is a SADDLE
+  temp_f              70.4225
+  load_mw             16739.4
+  gas_price           3.68346
+  function at stationary point: 0.68805
+  eigenvalues: [15.2232  2.7537 -7.8186]

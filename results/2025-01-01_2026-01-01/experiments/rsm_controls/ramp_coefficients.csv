@@ -1,0 +1,721 @@
+fold,model,coef_ramp_z,zone,response,sample
+2025-04,M2+Rrt,-1.4505008636794456,houston,spread,forward fold
+2025-04,M2+Rfc,-0.6642548653494166,houston,spread,forward fold
+2025-04,M2+CS+Rfc,-1.365955362386972,houston,spread,forward fold
+2025-04,M2+C+Rrt,-3.381214395348525,houston,spread,forward fold
+2025-04,M2+C+Rfc,-1.7317597904802549,houston,spread,forward fold
+2025-04,EX,-1.1009545654650303,houston,spread,forward fold
+2025-05,M2+Rrt,-2.0536880689671038,houston,spread,forward fold
+2025-05,M2+Rfc,-1.24771828474007,houston,spread,forward fold
+2025-05,M2+CS+Rfc,-1.787946442466512,houston,spread,forward fold
+2025-05,M2+C+Rrt,-3.3107791896583656,houston,spread,forward fold
+2025-05,M2+C+Rfc,-1.857586479004164,houston,spread,forward fold
+2025-05,EX,-1.0723321202824119,houston,spread,forward fold
+2025-06,M2+Rrt,-1.7440689405618572,houston,spread,forward fold
+2025-06,M2+Rfc,-1.1790719250104351,houston,spread,forward fold
+2025-06,M2+CS+Rfc,-1.9068413772304538,houston,spread,forward fold
+2025-06,M2+C+Rrt,-2.917411026810706,houston,spread,forward fold
+2025-06,M2+C+Rfc,-1.9261612630580067,houston,spread,forward fold
+2025-06,EX,-1.3874005916958274,houston,spread,forward fold
+2025-07,M2+Rrt,-1.411297135780831,houston,spread,forward fold
+2025-07,M2+Rfc,-0.8702283284937774,houston,spread,forward fold
+2025-07,M2+CS+Rfc,-1.6669102773934603,houston,spread,forward fold
+2025-07,M2+C+Rrt,-2.6622366822902164,houston,spread,forward fold
+2025-07,M2+C+Rfc,-1.6517360155061855,houston,spread,forward fold
+2025-07,EX,-1.2094975275034197,houston,spread,forward fold
+2025-08,M2+Rrt,-1.1548213087394346,houston,spread,forward fold
+2025-08,M2+Rfc,-0.5889353553075993,houston,spread,forward fold
+2025-08,M2+CS+Rfc,-1.257511993664875,houston,spread,forward fold
+2025-08,M2+C+Rrt,-2.4349141695220076,houston,spread,forward fold
+2025-08,M2+C+Rfc,-1.3003858192227082,houston,spread,forward fold
+2025-08,EX,-0.7505157668070985,houston,spread,forward fold
+2025-09,M2+Rrt,-0.8785709502434984,houston,spread,forward fold
+2025-09,M2+Rfc,-0.30825874003306203,houston,spread,forward fold
+2025-09,M2+CS+Rfc,-1.166274375674325,houston,spread,forward fold
+2025-09,M2+C+Rrt,-2.421043053475932,houston,spread,forward fold
+2025-09,M2+C+Rfc,-1.2418410985650263,houston,spread,forward fold
+2025-09,EX,-0.5904578201582676,houston,spread,forward fold
+2025-10,M2+Rrt,-0.928544301396776,houston,spread,forward fold
+2025-10,M2+Rfc,-0.3342539576797443,houston,spread,forward fold
+2025-10,M2+CS+Rfc,-0.9740025411154188,houston,spread,forward fold
+2025-10,M2+C+Rrt,-2.3550734683888077,houston,spread,forward fold
+2025-10,M2+C+Rfc,-1.0533432225603252,houston,spread,forward fold
+2025-10,EX,-0.46415612292763303,houston,spread,forward fold
+2025-11,M2+Rrt,-0.9798911773154679,houston,spread,forward fold
+2025-11,M2+Rfc,-0.39733279056465154,houston,spread,forward fold
+2025-11,M2+CS+Rfc,-0.8729558749712341,houston,spread,forward fold
+2025-11,M2+C+Rrt,-2.201965360171623,houston,spread,forward fold
+2025-11,M2+C+Rfc,-0.9418062567146579,houston,spread,forward fold
+2025-11,EX,-0.3671682571514656,houston,spread,forward fold
+2025-12,M2+Rrt,-0.9143591733060294,houston,spread,forward fold
+2025-12,M2+Rfc,-0.3092272219626676,houston,spread,forward fold
+2025-12,M2+CS+Rfc,-0.8164055746905424,houston,spread,forward fold
+2025-12,M2+C+Rrt,-2.10846872943357,houston,spread,forward fold
+2025-12,M2+C+Rfc,-0.8988172363309834,houston,spread,forward fold
+2025-12,EX,-0.3596781707748681,houston,spread,forward fold
+fit 2024,M2+Rrt,-0.9007700536018028,houston,spread,2024 full
+fit 2024,M2+Rfc,0.46543852242896055,houston,spread,2024 full
+fit 2024,M2+CS+Rfc,0.5610260585279764,houston,spread,2024 full
+fit 2024,M2+C+Rrt,-2.1025314575654326,houston,spread,2024 full
+fit 2024,M2+C+Rfc,0.5093771307002367,houston,spread,2024 full
+fit 2024,EX,-0.12462047901918394,houston,spread,2024 full
+2025-04,M2+Rrt,-3.1409185310727756,north,spread,forward fold
+2025-04,M2+Rfc,-1.4998105080605637,north,spread,forward fold
+2025-04,M2+CS+Rfc,-2.104775755825955,north,spread,forward fold
+2025-04,M2+C+Rrt,-6.073133815822315,north,spread,forward fold
+2025-04,M2+C+Rfc,-2.7830194007997484,north,spread,forward fold
+2025-04,EX,-2.0605125237335296,north,spread,forward fold
+2025-05,M2+Rrt,-3.052651757593399,north,spread,forward fold
+2025-05,M2+Rfc,-1.5750337710534599,north,spread,forward fold
+2025-05,M2+CS+Rfc,-2.145245291728382,north,spread,forward fold
+2025-05,M2+C+Rrt,-5.175712082274972,north,spread,forward fold
+2025-05,M2+C+Rfc,-2.430729158220432,north,spread,forward fold
+2025-05,EX,-1.8789108246202877,north,spread,forward fold
+2025-06,M2+Rrt,-2.7935557666160036,north,spread,forward fold
+2025-06,M2+Rfc,-1.7769123986167759,north,spread,forward fold
+2025-06,M2+CS+Rfc,-2.5666685568898577,north,spread,forward fold
+2025-06,M2+C+Rrt,-4.471381897629421,north,spread,forward fold
+2025-06,M2+C+Rfc,-2.6539530060748957,north,spread,forward fold
+2025-06,EX,-2.1408885698175473,north,spread,forward fold
+2025-07,M2+Rrt,-2.2543678041652795,north,spread,forward fold
+2025-07,M2+Rfc,-1.286152853223174,north,spread,forward fold
+2025-07,M2+CS+Rfc,-2.3562895124153114,north,spread,forward fold
+2025-07,M2+C+Rrt,-4.178073268124711,north,spread,forward fold
+2025-07,M2+C+Rfc,-2.3633327264592823,north,spread,forward fold
+2025-07,EX,-1.8645458285377847,north,spread,forward fold
+2025-08,M2+Rrt,-1.9041022216244312,north,spread,forward fold
+2025-08,M2+Rfc,-0.9664122712978755,north,spread,forward fold
+2025-08,M2+CS+Rfc,-2.004090499555576,north,spread,forward fold
+2025-08,M2+C+Rrt,-3.919644180993353,north,spread,forward fold
+2025-08,M2+C+Rfc,-2.069153166039599,north,spread,forward fold
+2025-08,EX,-1.3760424497647974,north,spread,forward fold
+2025-09,M2+Rrt,-1.5374451864206056,north,spread,forward fold
+2025-09,M2+Rfc,-0.6456592219304818,north,spread,forward fold
+2025-09,M2+CS+Rfc,-1.9397817480818649,north,spread,forward fold
+2025-09,M2+C+Rrt,-3.792257152675334,north,spread,forward fold
+2025-09,M2+C+Rfc,-1.9762388182863104,north,spread,forward fold
+2025-09,EX,-1.2150139444802788,north,spread,forward fold
+2025-10,M2+Rrt,-1.5482365165252847,north,spread,forward fold
+2025-10,M2+Rfc,-0.6732952906096519,north,spread,forward fold
+2025-10,M2+CS+Rfc,-1.697774707968468,north,spread,forward fold
+2025-10,M2+C+Rrt,-3.598775132667128,north,spread,forward fold
+2025-10,M2+C+Rfc,-1.7146421327512886,north,spread,forward fold
+2025-10,EX,-1.0252486358053656,north,spread,forward fold
+2025-11,M2+Rrt,-1.5565258993673896,north,spread,forward fold
+2025-11,M2+Rfc,-0.7223003002991059,north,spread,forward fold
+2025-11,M2+CS+Rfc,-1.4777679265371413,north,spread,forward fold
+2025-11,M2+C+Rrt,-3.2716633312860557,north,spread,forward fold
+2025-11,M2+C+Rfc,-1.494025297553128,north,spread,forward fold
+2025-11,EX,-0.8372890816471756,north,spread,forward fold
+2025-12,M2+Rrt,-1.5099127780502428,north,spread,forward fold
+2025-12,M2+Rfc,-0.663356922333718,north,spread,forward fold
+2025-12,M2+CS+Rfc,-1.3760443286786126,north,spread,forward fold
+2025-12,M2+C+Rrt,-3.052987948716302,north,spread,forward fold
+2025-12,M2+C+Rfc,-1.37882701166398,north,spread,forward fold
+2025-12,EX,-0.8044960547400123,north,spread,forward fold
+fit 2024,M2+Rrt,-1.2434784477441614,north,spread,2024 full
+fit 2024,M2+Rfc,0.14319958239878394,north,spread,2024 full
+fit 2024,M2+CS+Rfc,0.13065416755464404,north,spread,2024 full
+fit 2024,M2+C+Rrt,-2.480873083355885,north,spread,2024 full
+fit 2024,M2+C+Rfc,0.13727414179177147,north,spread,2024 full
+fit 2024,EX,0.07376770895600362,north,spread,2024 full
+2025-04,M2+Rrt,-4.022017958381688,south,spread,forward fold
+2025-04,M2+Rfc,-0.8089971068107418,south,spread,forward fold
+2025-04,M2+CS+Rfc,-2.056335986813373,south,spread,forward fold
+2025-04,M2+C+Rrt,-9.486936582526448,south,spread,forward fold
+2025-04,M2+C+Rfc,-3.04674845098186,south,spread,forward fold
+2025-04,EX,-2.673634409223627,south,spread,forward fold
+2025-05,M2+Rrt,-3.5249761117885754,south,spread,forward fold
+2025-05,M2+Rfc,-0.937145771423366,south,spread,forward fold
+2025-05,M2+CS+Rfc,-1.9593377201684739,south,spread,forward fold
+2025-05,M2+C+Rrt,-6.957086663270145,south,spread,forward fold
+2025-05,M2+C+Rfc,-2.154796921365013,south,spread,forward fold
+2025-05,EX,-1.838421685810828,south,spread,forward fold
+2025-06,M2+Rrt,-2.5085803723845963,south,spread,forward fold
+2025-06,M2+Rfc,-0.5213342517994386,south,spread,forward fold
+2025-06,M2+CS+Rfc,-1.622194071391678,south,spread,forward fold
+2025-06,M2+C+Rrt,-5.1694472782577305,south,spread,forward fold
+2025-06,M2+C+Rfc,-1.5798659226132459,south,spread,forward fold
+2025-06,EX,-1.57550234383188,south,spread,forward fold
+2025-07,M2+Rrt,-2.204577314474542,south,spread,forward fold
+2025-07,M2+Rfc,-0.4045033375689346,south,spread,forward fold
+2025-07,M2+CS+Rfc,-1.609579744718824,south,spread,forward fold
+2025-07,M2+C+Rrt,-4.704872642878424,south,spread,forward fold
+2025-07,M2+C+Rfc,-1.466795476589627,south,spread,forward fold
+2025-07,EX,-1.3759805390254956,south,spread,forward fold
+2025-08,M2+Rrt,-1.876324719983416,south,spread,forward fold
+2025-08,M2+Rfc,-0.2612673371389223,south,spread,forward fold
+2025-08,M2+CS+Rfc,-1.4765848066899423,south,spread,forward fold
+2025-08,M2+C+Rrt,-4.347228520215647,south,spread,forward fold
+2025-08,M2+C+Rfc,-1.3543961295587512,south,spread,forward fold
+2025-08,EX,-1.0582738057608858,south,spread,forward fold
+2025-09,M2+Rrt,-1.5734534386873122,south,spread,forward fold
+2025-09,M2+Rfc,-0.07492346384132359,south,spread,forward fold
+2025-09,M2+CS+Rfc,-1.3925400790276312,south,spread,forward fold
+2025-09,M2+C+Rrt,-4.181489183171425,south,spread,forward fold
+2025-09,M2+C+Rfc,-1.2930789476189417,south,spread,forward fold
+2025-09,EX,-0.9234629735578379,south,spread,forward fold
+2025-10,M2+Rrt,-1.5114504202621188,south,spread,forward fold
+2025-10,M2+Rfc,-0.13279582171019821,south,spread,forward fold
+2025-10,M2+CS+Rfc,-1.2358723110653338,south,spread,forward fold
+2025-10,M2+C+Rrt,-3.903025186638473,south,spread,forward fold
+2025-10,M2+C+Rfc,-1.1432020399490923,south,spread,forward fold
+2025-10,EX,-0.7917607891856271,south,spread,forward fold
+2025-11,M2+Rrt,-1.4400529711241905,south,spread,forward fold
+2025-11,M2+Rfc,-0.1577019140564646,south,spread,forward fold
+2025-11,M2+CS+Rfc,-1.0428646693308172,south,spread,forward fold
+2025-11,M2+C+Rrt,-3.5195639598383957,south,spread,forward fold
+2025-11,M2+C+Rfc,-0.9812892085241747,south,spread,forward fold
+2025-11,EX,-0.642759182590028,south,spread,forward fold
+2025-12,M2+Rrt,-1.4205080521246485,south,spread,forward fold
+2025-12,M2+Rfc,-0.18861375092818689,south,spread,forward fold
+2025-12,M2+CS+Rfc,-1.0023436742166,south,spread,forward fold
+2025-12,M2+C+Rrt,-3.2872312630212877,south,spread,forward fold
+2025-12,M2+C+Rfc,-1.0131372495806927,south,spread,forward fold
+2025-12,EX,-0.6440823940237967,south,spread,forward fold
+fit 2024,M2+Rrt,-0.5587914463867638,south,spread,2024 full
+fit 2024,M2+Rfc,0.561298481414472,south,spread,2024 full
+fit 2024,M2+CS+Rfc,1.3704588038221468,south,spread,2024 full
+fit 2024,M2+C+Rrt,-0.9443568186211231,south,spread,2024 full
+fit 2024,M2+C+Rfc,1.206175690002298,south,spread,2024 full
+fit 2024,EX,0.8596328378003592,south,spread,2024 full
+2025-04,M2+Rrt,-0.4519749174178669,west,spread,forward fold
+2025-04,M2+Rfc,1.2933689160606385,west,spread,forward fold
+2025-04,M2+CS+Rfc,1.9998515546019906,west,spread,forward fold
+2025-04,M2+C+Rrt,-2.345137917515267,west,spread,forward fold
+2025-04,M2+C+Rfc,1.259134938262834,west,spread,forward fold
+2025-04,EX,0.4032948422677294,west,spread,forward fold
+2025-05,M2+Rrt,-0.25432651215692853,west,spread,forward fold
+2025-05,M2+Rfc,1.3570241029427543,west,spread,forward fold
+2025-05,M2+CS+Rfc,2.292055283671742,west,spread,forward fold
+2025-05,M2+C+Rrt,-1.5925492947657442,west,spread,forward fold
+2025-05,M2+C+Rfc,1.6998655691242872,west,spread,forward fold
+2025-05,EX,-0.2141284451272152,west,spread,forward fold
+2025-06,M2+Rrt,-0.0418460931661261,west,spread,forward fold
+2025-06,M2+Rfc,1.2563250445895988,west,spread,forward fold
+2025-06,M2+CS+Rfc,1.6958702894498416,west,spread,forward fold
+2025-06,M2+C+Rrt,-0.9094099599934736,west,spread,forward fold
+2025-06,M2+C+Rfc,1.5219315308706622,west,spread,forward fold
+2025-06,EX,-0.7445491817800265,west,spread,forward fold
+2025-07,M2+Rrt,0.31268224307337217,west,spread,forward fold
+2025-07,M2+Rfc,1.4630284051062428,west,spread,forward fold
+2025-07,M2+CS+Rfc,1.6076893262804455,west,spread,forward fold
+2025-07,M2+C+Rrt,-0.5530892281056938,west,spread,forward fold
+2025-07,M2+C+Rfc,1.597932134331749,west,spread,forward fold
+2025-07,EX,-0.6557191238674709,west,spread,forward fold
+2025-08,M2+Rrt,0.41438671494000523,west,spread,forward fold
+2025-08,M2+Rfc,1.4774441434763517,west,spread,forward fold
+2025-08,M2+CS+Rfc,1.4679484031852008,west,spread,forward fold
+2025-08,M2+C+Rrt,-0.5519881965838693,west,spread,forward fold
+2025-08,M2+C+Rfc,1.4817751874113316,west,spread,forward fold
+2025-08,EX,-0.5636987772160814,west,spread,forward fold
+2025-09,M2+Rrt,0.8211955994063193,west,spread,forward fold
+2025-09,M2+Rfc,1.8049895922028152,west,spread,forward fold
+2025-09,M2+CS+Rfc,1.640874426638553,west,spread,forward fold
+2025-09,M2+C+Rrt,-0.510586228326226,west,spread,forward fold
+2025-09,M2+C+Rfc,1.5871917550010293,west,spread,forward fold
+2025-09,EX,-0.33597964871555686,west,spread,forward fold
+2025-10,M2+Rrt,0.7559600437667577,west,spread,forward fold
+2025-10,M2+Rfc,1.6971069668704954,west,spread,forward fold
+2025-10,M2+CS+Rfc,1.7524592524368476,west,spread,forward fold
+2025-10,M2+C+Rrt,-0.3889213086286307,west,spread,forward fold
+2025-10,M2+C+Rfc,1.6983626126644498,west,spread,forward fold
+2025-10,EX,-0.20009513343446736,west,spread,forward fold
+2025-11,M2+Rrt,0.5564501678966348,west,spread,forward fold
+2025-11,M2+Rfc,1.4838333371461587,west,spread,forward fold
+2025-11,M2+CS+Rfc,1.8251049899295495,west,spread,forward fold
+2025-11,M2+C+Rrt,-0.2676766294649244,west,spread,forward fold
+2025-11,M2+C+Rfc,1.7396699435827006,west,spread,forward fold
+2025-11,EX,-0.05296466332768479,west,spread,forward fold
+2025-12,M2+Rrt,0.4889844758417749,west,spread,forward fold
+2025-12,M2+Rfc,1.397592498937404,west,spread,forward fold
+2025-12,M2+CS+Rfc,1.8517322673045582,west,spread,forward fold
+2025-12,M2+C+Rrt,-0.1826840353481624,west,spread,forward fold
+2025-12,M2+C+Rfc,1.6390947989402638,west,spread,forward fold
+2025-12,EX,0.11876084748885268,west,spread,forward fold
+fit 2024,M2+Rrt,-0.32889033390225575,west,spread,2024 full
+fit 2024,M2+Rfc,1.0975212361320272,west,spread,2024 full
+fit 2024,M2+CS+Rfc,1.015740344126562,west,spread,2024 full
+fit 2024,M2+C+Rrt,-1.514352016784398,west,spread,2024 full
+fit 2024,M2+C+Rfc,1.0445324449319986,west,spread,2024 full
+fit 2024,EX,0.6558929136541488,west,spread,2024 full
+2025-04,M2+Rrt,1.8409328665486027,houston,abs_spread,forward fold
+2025-04,M2+Rfc,1.382331933920188,houston,abs_spread,forward fold
+2025-04,M2+CS+Rfc,1.0614160337774958,houston,abs_spread,forward fold
+2025-04,M2+C+Rrt,2.2088194146279303,houston,abs_spread,forward fold
+2025-04,M2+C+Rfc,1.0410586949344292,houston,abs_spread,forward fold
+2025-04,EX,0.3600696250359363,houston,abs_spread,forward fold
+2025-05,M2+Rrt,2.2493481256997856,houston,abs_spread,forward fold
+2025-05,M2+Rfc,2.0185260209752265,houston,abs_spread,forward fold
+2025-05,M2+CS+Rfc,1.4840423539877543,houston,abs_spread,forward fold
+2025-05,M2+C+Rrt,1.853050306590692,houston,abs_spread,forward fold
+2025-05,M2+C+Rfc,1.3170384053565478,houston,abs_spread,forward fold
+2025-05,EX,0.5833006173236158,houston,abs_spread,forward fold
+2025-06,M2+Rrt,2.515029204996014,houston,abs_spread,forward fold
+2025-06,M2+Rfc,2.787157114126224,houston,abs_spread,forward fold
+2025-06,M2+CS+Rfc,2.706393842766861,houston,abs_spread,forward fold
+2025-06,M2+C+Rrt,2.0865328383627277,houston,abs_spread,forward fold
+2025-06,M2+C+Rfc,2.658901160655636,houston,abs_spread,forward fold
+2025-06,EX,2.4839192470000544,houston,abs_spread,forward fold
+2025-07,M2+Rrt,2.722054047097816,houston,abs_spread,forward fold
+2025-07,M2+Rfc,3.0218022491676804,houston,abs_spread,forward fold
+2025-07,M2+CS+Rfc,2.4670715012274553,houston,abs_spread,forward fold
+2025-07,M2+C+Rrt,1.881294423781124,houston,abs_spread,forward fold
+2025-07,M2+C+Rfc,2.4941936842719326,houston,abs_spread,forward fold
+2025-07,EX,2.551782645629628,houston,abs_spread,forward fold
+2025-08,M2+Rrt,2.781764713523882,houston,abs_spread,forward fold
+2025-08,M2+Rfc,3.1265661249177623,houston,abs_spread,forward fold
+2025-08,M2+CS+Rfc,2.2288321935743234,houston,abs_spread,forward fold
+2025-08,M2+C+Rrt,1.7588441223448779,houston,abs_spread,forward fold
+2025-08,M2+C+Rfc,2.397380038419782,houston,abs_spread,forward fold
+2025-08,EX,2.3406383030975912,houston,abs_spread,forward fold
+2025-09,M2+Rrt,2.8366777152522475,houston,abs_spread,forward fold
+2025-09,M2+Rfc,3.1193523673026897,houston,abs_spread,forward fold
+2025-09,M2+CS+Rfc,2.1442095969068404,houston,abs_spread,forward fold
+2025-09,M2+C+Rrt,1.8043534108442065,houston,abs_spread,forward fold
+2025-09,M2+C+Rfc,2.395526336099039,houston,abs_spread,forward fold
+2025-09,EX,2.3056477208187953,houston,abs_spread,forward fold
+2025-10,M2+Rrt,2.51751732889631,houston,abs_spread,forward fold
+2025-10,M2+Rfc,2.7892300866871693,houston,abs_spread,forward fold
+2025-10,M2+CS+Rfc,2.1865341161289713,houston,abs_spread,forward fold
+2025-10,M2+C+Rrt,1.7634856744552052,houston,abs_spread,forward fold
+2025-10,M2+C+Rfc,2.4024076545517685,houston,abs_spread,forward fold
+2025-10,EX,2.311465408505293,houston,abs_spread,forward fold
+2025-11,M2+Rrt,2.431938218838246,houston,abs_spread,forward fold
+2025-11,M2+Rfc,2.7082546295329966,houston,abs_spread,forward fold
+2025-11,M2+CS+Rfc,2.246186714200898,houston,abs_spread,forward fold
+2025-11,M2+C+Rrt,1.882852897770261,houston,abs_spread,forward fold
+2025-11,M2+C+Rfc,2.445641500181172,houston,abs_spread,forward fold
+2025-11,EX,2.394532531742117,houston,abs_spread,forward fold
+2025-12,M2+Rrt,2.224347044291468,houston,abs_spread,forward fold
+2025-12,M2+Rfc,2.4701749062187717,houston,abs_spread,forward fold
+2025-12,M2+CS+Rfc,2.089306861155373,houston,abs_spread,forward fold
+2025-12,M2+C+Rrt,1.8203609761268225,houston,abs_spread,forward fold
+2025-12,M2+C+Rfc,2.259508672281769,houston,abs_spread,forward fold
+2025-12,EX,2.0889163568618647,houston,abs_spread,forward fold
+fit 2024,M2+Rrt,4.622818854096348,houston,abs_spread,2024 full
+fit 2024,M2+Rfc,5.134079148416305,houston,abs_spread,2024 full
+fit 2024,M2+CS+Rfc,6.315579127436635,houston,abs_spread,2024 full
+fit 2024,M2+C+Rrt,5.257250112562414,houston,abs_spread,2024 full
+fit 2024,M2+C+Rfc,6.832484060880019,houston,abs_spread,2024 full
+fit 2024,EX,6.0163964314925495,houston,abs_spread,2024 full
+2025-04,M2+Rrt,3.83788889285117,north,abs_spread,forward fold
+2025-04,M2+Rfc,2.7602771759105935,north,abs_spread,forward fold
+2025-04,M2+CS+Rfc,1.4144602986997155,north,abs_spread,forward fold
+2025-04,M2+C+Rrt,4.456593967145889,north,abs_spread,forward fold
+2025-04,M2+C+Rfc,2.0155819105519246,north,abs_spread,forward fold
+2025-04,EX,0.9466089157243615,north,abs_spread,forward fold
+2025-05,M2+Rrt,3.7013613235476446,north,abs_spread,forward fold
+2025-05,M2+Rfc,2.9736040920403677,north,abs_spread,forward fold
+2025-05,M2+CS+Rfc,2.025787587470914,north,abs_spread,forward fold
+2025-05,M2+C+Rrt,3.712581465726304,north,abs_spread,forward fold
+2025-05,M2+C+Rfc,2.306643377142495,north,abs_spread,forward fold
+2025-05,EX,1.1193392698527846,north,abs_spread,forward fold
+2025-06,M2+Rrt,3.9428562572168695,north,abs_spread,forward fold
+2025-06,M2+Rfc,3.882112756696351,north,abs_spread,forward fold
+2025-06,M2+CS+Rfc,3.968780794957417,north,abs_spread,forward fold
+2025-06,M2+C+Rrt,4.133872627418354,north,abs_spread,forward fold
+2025-06,M2+C+Rfc,4.051701581001707,north,abs_spread,forward fold
+2025-06,EX,3.1817649337667673,north,abs_spread,forward fold
+2025-07,M2+Rrt,4.0330874852771705,north,abs_spread,forward fold
+2025-07,M2+Rfc,3.9946573784061217,north,abs_spread,forward fold
+2025-07,M2+CS+Rfc,3.858753649976641,north,abs_spread,forward fold
+2025-07,M2+C+Rrt,3.9388635054699983,north,abs_spread,forward fold
+2025-07,M2+C+Rfc,3.8862349185609055,north,abs_spread,forward fold
+2025-07,EX,3.176253323772533,north,abs_spread,forward fold
+2025-08,M2+Rrt,3.749879761762472,north,abs_spread,forward fold
+2025-08,M2+Rfc,3.823634646782561,north,abs_spread,forward fold
+2025-08,M2+CS+Rfc,3.6414419371894136,north,abs_spread,forward fold
+2025-08,M2+C+Rrt,3.5961178881496174,north,abs_spread,forward fold
+2025-08,M2+C+Rfc,3.665818459196076,north,abs_spread,forward fold
+2025-08,EX,3.0634546180566575,north,abs_spread,forward fold
+2025-09,M2+Rrt,3.5023383681030613,north,abs_spread,forward fold
+2025-09,M2+Rfc,3.559721869395142,north,abs_spread,forward fold
+2025-09,M2+CS+Rfc,3.4444170854350986,north,abs_spread,forward fold
+2025-09,M2+C+Rrt,3.435564354666499,north,abs_spread,forward fold
+2025-09,M2+C+Rfc,3.4990194181280985,north,abs_spread,forward fold
+2025-09,EX,3.0907352015232687,north,abs_spread,forward fold
+2025-10,M2+Rrt,3.1152863996366893,north,abs_spread,forward fold
+2025-10,M2+Rfc,3.178633363143028,north,abs_spread,forward fold
+2025-10,M2+CS+Rfc,3.3750464039748374,north,abs_spread,forward fold
+2025-10,M2+C+Rrt,3.3238472763485563,north,abs_spread,forward fold
+2025-10,M2+C+Rfc,3.4651492429473327,north,abs_spread,forward fold
+2025-10,EX,3.085041895278413,north,abs_spread,forward fold
+2025-11,M2+Rrt,2.971616565491028,north,abs_spread,forward fold
+2025-11,M2+Rfc,3.0468097119201545,north,abs_spread,forward fold
+2025-11,M2+CS+Rfc,3.335293747207933,north,abs_spread,forward fold
+2025-11,M2+C+Rrt,3.3187862498346505,north,abs_spread,forward fold
+2025-11,M2+C+Rfc,3.4100952516286727,north,abs_spread,forward fold
+2025-11,EX,3.1372745937476787,north,abs_spread,forward fold
+2025-12,M2+Rrt,2.7237785600270685,north,abs_spread,forward fold
+2025-12,M2+Rfc,2.7857819448161103,north,abs_spread,forward fold
+2025-12,M2+CS+Rfc,3.2027181967694336,north,abs_spread,forward fold
+2025-12,M2+C+Rrt,3.1996746291897025,north,abs_spread,forward fold
+2025-12,M2+C+Rfc,3.256400017144207,north,abs_spread,forward fold
+2025-12,EX,2.8723552076056413,north,abs_spread,forward fold
+fit 2024,M2+Rrt,4.5687655803084635,north,abs_spread,2024 full
+fit 2024,M2+Rfc,5.0403513338651456,north,abs_spread,2024 full
+fit 2024,M2+CS+Rfc,6.395494516619019,north,abs_spread,2024 full
+fit 2024,M2+C+Rrt,5.182143977375537,north,abs_spread,2024 full
+fit 2024,M2+C+Rfc,6.553614463059367,north,abs_spread,2024 full
+fit 2024,EX,6.141868510859715,north,abs_spread,2024 full
+2025-04,M2+Rrt,3.2592935405805683,south,abs_spread,forward fold
+2025-04,M2+Rfc,0.5237977613534048,south,abs_spread,forward fold
+2025-04,M2+CS+Rfc,1.9581417077195538,south,abs_spread,forward fold
+2025-04,M2+C+Rrt,8.39837774368607,south,abs_spread,forward fold
+2025-04,M2+C+Rfc,2.996624261516735,south,abs_spread,forward fold
+2025-04,EX,1.6895306435232351,south,abs_spread,forward fold
+2025-05,M2+Rrt,2.783985155356054,south,abs_spread,forward fold
+2025-05,M2+Rfc,0.821231230462428,south,abs_spread,forward fold
+2025-05,M2+CS+Rfc,1.5084732446018498,south,abs_spread,forward fold
+2025-05,M2+C+Rrt,5.387432747945124,south,abs_spread,forward fold
+2025-05,M2+C+Rfc,1.6840045938700532,south,abs_spread,forward fold
+2025-05,EX,0.9377034220812974,south,abs_spread,forward fold
+2025-06,M2+Rrt,2.5179666790302213,south,abs_spread,forward fold
+2025-06,M2+Rfc,1.2831510735309664,south,abs_spread,forward fold
+2025-06,M2+CS+Rfc,2.029402247669322,south,abs_spread,forward fold
+2025-06,M2+C+Rrt,4.171152542248848,south,abs_spread,forward fold
+2025-06,M2+C+Rfc,1.9560962541870508,south,abs_spread,forward fold
+2025-06,EX,2.054097177414576,south,abs_spread,forward fold
+2025-07,M2+Rrt,2.3686409125085013,south,abs_spread,forward fold
+2025-07,M2+Rfc,1.3457698810692098,south,abs_spread,forward fold
+2025-07,M2+CS+Rfc,1.7653602577402223,south,abs_spread,forward fold
+2025-07,M2+C+Rrt,3.401442766277103,south,abs_spread,forward fold
+2025-07,M2+C+Rfc,1.5739421379331082,south,abs_spread,forward fold
+2025-07,EX,1.81731093524033,south,abs_spread,forward fold
+2025-08,M2+Rrt,2.14915096832614,south,abs_spread,forward fold
+2025-08,M2+Rfc,1.3901727375821316,south,abs_spread,forward fold
+2025-08,M2+CS+Rfc,1.7586439681301964,south,abs_spread,forward fold
+2025-08,M2+C+Rrt,3.0768687833366575,south,abs_spread,forward fold
+2025-08,M2+C+Rfc,1.6163306371095745,south,abs_spread,forward fold
+2025-08,EX,1.790635335557726,south,abs_spread,forward fold
+2025-09,M2+Rrt,2.184587922435917,south,abs_spread,forward fold
+2025-09,M2+Rfc,1.5060327400542468,south,abs_spread,forward fold
+2025-09,M2+CS+Rfc,1.821164453102009,south,abs_spread,forward fold
+2025-09,M2+C+Rrt,2.9883368850248355,south,abs_spread,forward fold
+2025-09,M2+C+Rfc,1.6929666295159451,south,abs_spread,forward fold
+2025-09,EX,1.8803528275873604,south,abs_spread,forward fold
+2025-10,M2+Rrt,1.8549338323875364,south,abs_spread,forward fold
+2025-10,M2+Rfc,1.2815900940848333,south,abs_spread,forward fold
+2025-10,M2+CS+Rfc,1.8515439069965565,south,abs_spread,forward fold
+2025-10,M2+C+Rrt,2.8155686038341408,south,abs_spread,forward fold
+2025-10,M2+C+Rfc,1.7232636500354839,south,abs_spread,forward fold
+2025-10,EX,1.9017448008520716,south,abs_spread,forward fold
+2025-11,M2+Rrt,1.7978974499993519,south,abs_spread,forward fold
+2025-11,M2+Rfc,1.3373184109442895,south,abs_spread,forward fold
+2025-11,M2+CS+Rfc,1.925431392832417,south,abs_spread,forward fold
+2025-11,M2+C+Rrt,2.7475918091266207,south,abs_spread,forward fold
+2025-11,M2+C+Rfc,1.8412571385008036,south,abs_spread,forward fold
+2025-11,EX,2.068199220425843,south,abs_spread,forward fold
+2025-12,M2+Rrt,1.7324999712235196,south,abs_spread,forward fold
+2025-12,M2+Rfc,1.3372811650501375,south,abs_spread,forward fold
+2025-12,M2+CS+Rfc,1.8968733922199181,south,abs_spread,forward fold
+2025-12,M2+C+Rrt,2.5816244958034025,south,abs_spread,forward fold
+2025-12,M2+C+Rfc,1.850004415415134,south,abs_spread,forward fold
+2025-12,EX,2.0273018577972377,south,abs_spread,forward fold
+fit 2024,M2+Rrt,3.6090278990055564,south,abs_spread,2024 full
+fit 2024,M2+Rfc,4.081269387540449,south,abs_spread,2024 full
+fit 2024,M2+CS+Rfc,4.219802727028287,south,abs_spread,2024 full
+fit 2024,M2+C+Rrt,3.0818501277878516,south,abs_spread,2024 full
+fit 2024,M2+C+Rfc,4.513904420644787,south,abs_spread,2024 full
+fit 2024,EX,4.630370981640253,south,abs_spread,2024 full
+2025-04,M2+Rrt,2.5200708994111407,west,abs_spread,forward fold
+2025-04,M2+Rfc,1.9392305917978694,west,abs_spread,forward fold
+2025-04,M2+CS+Rfc,0.3934369457898466,west,abs_spread,forward fold
+2025-04,M2+C+Rrt,2.0157731007093522,west,abs_spread,forward fold
+2025-04,M2+C+Rfc,0.8550934048928427,west,abs_spread,forward fold
+2025-04,EX,0.8652393318748186,west,abs_spread,forward fold
+2025-05,M2+Rrt,2.1094598051020683,west,abs_spread,forward fold
+2025-05,M2+Rfc,1.3884343838491535,west,abs_spread,forward fold
+2025-05,M2+CS+Rfc,-0.42286992654423605,west,abs_spread,forward fold
+2025-05,M2+C+Rrt,1.3427116761518991,west,abs_spread,forward fold
+2025-05,M2+C+Rfc,-0.14143854190237404,west,abs_spread,forward fold
+2025-05,EX,1.1252203207235503,west,abs_spread,forward fold
+2025-06,M2+Rrt,2.2173017273642928,west,abs_spread,forward fold
+2025-06,M2+Rfc,1.9157998506866323,west,abs_spread,forward fold
+2025-06,M2+CS+Rfc,1.1607853321392245,west,abs_spread,forward fold
+2025-06,M2+C+Rrt,1.6084323870482033,west,abs_spread,forward fold
+2025-06,M2+C+Rfc,1.2110611771857223,west,abs_spread,forward fold
+2025-06,EX,3.140438865166346,west,abs_spread,forward fold
+2025-07,M2+Rrt,2.0060886057110676,west,abs_spread,forward fold
+2025-07,M2+Rfc,1.8536336222783283,west,abs_spread,forward fold
+2025-07,M2+CS+Rfc,1.4767194711256946,west,abs_spread,forward fold
+2025-07,M2+C+Rrt,1.60961394973401,west,abs_spread,forward fold
+2025-07,M2+C+Rfc,1.4542237604797101,west,abs_spread,forward fold
+2025-07,EX,3.0729248385335914,west,abs_spread,forward fold
+2025-08,M2+Rrt,1.651249645560994,west,abs_spread,forward fold
+2025-08,M2+Rfc,1.6656667938100744,west,abs_spread,forward fold
+2025-08,M2+CS+Rfc,1.7755578214031877,west,abs_spread,forward fold
+2025-08,M2+C+Rrt,1.5714568998734078,west,abs_spread,forward fold
+2025-08,M2+C+Rfc,1.5461095226589843,west,abs_spread,forward fold
+2025-08,EX,3.038992306697827,west,abs_spread,forward fold
+2025-09,M2+Rrt,1.6520665240194032,west,abs_spread,forward fold
+2025-09,M2+Rfc,1.6797389412878512,west,abs_spread,forward fold
+2025-09,M2+CS+Rfc,1.9047820053039537,west,abs_spread,forward fold
+2025-09,M2+C+Rrt,1.7146343390122656,west,abs_spread,forward fold
+2025-09,M2+C+Rfc,1.7439553734490367,west,abs_spread,forward fold
+2025-09,EX,3.13481722574398,west,abs_spread,forward fold
+2025-10,M2+Rrt,1.2866402479442094,west,abs_spread,forward fold
+2025-10,M2+Rfc,1.394134580086098,west,abs_spread,forward fold
+2025-10,M2+CS+Rfc,1.7458534883789756,west,abs_spread,forward fold
+2025-10,M2+C+Rrt,1.4612554197894236,west,abs_spread,forward fold
+2025-10,M2+C+Rfc,1.7042562665088903,west,abs_spread,forward fold
+2025-10,EX,3.168015049667975,west,abs_spread,forward fold
+2025-11,M2+Rrt,1.2482135216328452,west,abs_spread,forward fold
+2025-11,M2+Rfc,1.3262713180769485,west,abs_spread,forward fold
+2025-11,M2+CS+Rfc,1.736396811381847,west,abs_spread,forward fold
+2025-11,M2+C+Rrt,1.5512015371665677,west,abs_spread,forward fold
+2025-11,M2+C+Rfc,1.7400833335385326,west,abs_spread,forward fold
+2025-11,EX,3.1208993765146547,west,abs_spread,forward fold
+2025-12,M2+Rrt,1.2306083148920113,west,abs_spread,forward fold
+2025-12,M2+Rfc,1.2986443053394467,west,abs_spread,forward fold
+2025-12,M2+CS+Rfc,1.5444054872290152,west,abs_spread,forward fold
+2025-12,M2+C+Rrt,1.5745221735403399,west,abs_spread,forward fold
+2025-12,M2+C+Rfc,1.7321705693447698,west,abs_spread,forward fold
+2025-12,EX,2.6571217394627693,west,abs_spread,forward fold
+fit 2024,M2+Rrt,3.4316690594040087,west,abs_spread,2024 full
+fit 2024,M2+Rfc,4.038437841715518,west,abs_spread,2024 full
+fit 2024,M2+CS+Rfc,7.607185451394717,west,abs_spread,2024 full
+fit 2024,M2+C+Rrt,6.0931899565570955,west,abs_spread,2024 full
+fit 2024,M2+C+Rfc,7.898610481035227,west,abs_spread,2024 full
+fit 2024,EX,6.499587458555932,west,abs_spread,2024 full
+2025-04,M2+Rrt,0.9969553908153425,houston,imhr_da,forward fold
+2025-04,M2+Rfc,1.1235949601235558,houston,imhr_da,forward fold
+2025-04,M2+CS+Rfc,1.4128809476127857,houston,imhr_da,forward fold
+2025-04,M2+C+Rrt,1.0977977322821781,houston,imhr_da,forward fold
+2025-04,M2+C+Rfc,1.3212415253488636,houston,imhr_da,forward fold
+2025-04,EX,0.8427710075213045,houston,imhr_da,forward fold
+2025-05,M2+Rrt,1.0668244944380347,houston,imhr_da,forward fold
+2025-05,M2+Rfc,1.225144469177399,houston,imhr_da,forward fold
+2025-05,M2+CS+Rfc,1.5090800196513823,houston,imhr_da,forward fold
+2025-05,M2+C+Rrt,1.201812195791745,houston,imhr_da,forward fold
+2025-05,M2+C+Rfc,1.4328674290300762,houston,imhr_da,forward fold
+2025-05,EX,1.0850540728171338,houston,imhr_da,forward fold
+2025-06,M2+Rrt,1.1912834735017,houston,imhr_da,forward fold
+2025-06,M2+Rfc,1.3737561709248933,houston,imhr_da,forward fold
+2025-06,M2+CS+Rfc,1.5290639487672024,houston,imhr_da,forward fold
+2025-06,M2+C+Rrt,1.2220738099653763,houston,imhr_da,forward fold
+2025-06,M2+C+Rfc,1.4860749832430575,houston,imhr_da,forward fold
+2025-06,EX,1.3290360384934923,houston,imhr_da,forward fold
+2025-07,M2+Rrt,1.3603883825513061,houston,imhr_da,forward fold
+2025-07,M2+Rfc,1.50576193644955,houston,imhr_da,forward fold
+2025-07,M2+CS+Rfc,1.3516269054215806,houston,imhr_da,forward fold
+2025-07,M2+C+Rrt,1.1645452203146471,houston,imhr_da,forward fold
+2025-07,M2+C+Rfc,1.3547006500600296,houston,imhr_da,forward fold
+2025-07,EX,1.2521701966249676,houston,imhr_da,forward fold
+2025-08,M2+Rrt,1.4273329245339945,houston,imhr_da,forward fold
+2025-08,M2+Rfc,1.5635966682206681,houston,imhr_da,forward fold
+2025-08,M2+CS+Rfc,1.2187685533320423,houston,imhr_da,forward fold
+2025-08,M2+C+Rrt,1.1126191774708856,houston,imhr_da,forward fold
+2025-08,M2+C+Rfc,1.270899188673063,houston,imhr_da,forward fold
+2025-08,EX,1.1929176649043307,houston,imhr_da,forward fold
+2025-09,M2+Rrt,1.4779915895280775,houston,imhr_da,forward fold
+2025-09,M2+Rfc,1.5786033402089017,houston,imhr_da,forward fold
+2025-09,M2+CS+Rfc,1.1416339355056566,houston,imhr_da,forward fold
+2025-09,M2+C+Rrt,1.0674842461583574,houston,imhr_da,forward fold
+2025-09,M2+C+Rfc,1.1954596176680705,houston,imhr_da,forward fold
+2025-09,EX,1.1723916442707722,houston,imhr_da,forward fold
+2025-10,M2+Rrt,1.42419076184445,houston,imhr_da,forward fold
+2025-10,M2+Rfc,1.5092538128386266,houston,imhr_da,forward fold
+2025-10,M2+CS+Rfc,1.190403834132045,houston,imhr_da,forward fold
+2025-10,M2+C+Rrt,1.1084510592243846,houston,imhr_da,forward fold
+2025-10,M2+C+Rfc,1.2382940022835374,houston,imhr_da,forward fold
+2025-10,EX,1.222280405360728,houston,imhr_da,forward fold
+2025-11,M2+Rrt,1.4414224033942433,houston,imhr_da,forward fold
+2025-11,M2+Rfc,1.5648774240214627,houston,imhr_da,forward fold
+2025-11,M2+CS+Rfc,1.289114842653489,houston,imhr_da,forward fold
+2025-11,M2+C+Rrt,1.2025391467530693,houston,imhr_da,forward fold
+2025-11,M2+C+Rfc,1.343247419042039,houston,imhr_da,forward fold
+2025-11,EX,1.305540032484209,houston,imhr_da,forward fold
+2025-12,M2+Rrt,1.4226952577494862,houston,imhr_da,forward fold
+2025-12,M2+Rfc,1.5599167565813323,houston,imhr_da,forward fold
+2025-12,M2+CS+Rfc,1.382893962894026,houston,imhr_da,forward fold
+2025-12,M2+C+Rrt,1.2799433607733768,houston,imhr_da,forward fold
+2025-12,M2+C+Rfc,1.4388957110200042,houston,imhr_da,forward fold
+2025-12,EX,1.3105869902800902,houston,imhr_da,forward fold
+fit 2024,M2+Rrt,3.1719782540183217,houston,imhr_da,2024 full
+fit 2024,M2+Rfc,3.4192215063122187,houston,imhr_da,2024 full
+fit 2024,M2+CS+Rfc,3.8942685043948266,houston,imhr_da,2024 full
+fit 2024,M2+C+Rrt,3.3998214632969153,houston,imhr_da,2024 full
+fit 2024,M2+C+Rfc,4.135233083318607,houston,imhr_da,2024 full
+fit 2024,EX,3.6584725306886967,houston,imhr_da,2024 full
+2025-04,M2+Rrt,1.1532261799702546,north,imhr_da,forward fold
+2025-04,M2+Rfc,1.3039495856658938,north,imhr_da,forward fold
+2025-04,M2+CS+Rfc,1.5308650974645426,north,imhr_da,forward fold
+2025-04,M2+C+Rrt,1.2059487394991293,north,imhr_da,forward fold
+2025-04,M2+C+Rfc,1.4946332875779758,north,imhr_da,forward fold
+2025-04,EX,0.9506450136529722,north,imhr_da,forward fold
+2025-05,M2+Rrt,1.177657608564174,north,imhr_da,forward fold
+2025-05,M2+Rfc,1.3606039776853072,north,imhr_da,forward fold
+2025-05,M2+CS+Rfc,1.6833388955064046,north,imhr_da,forward fold
+2025-05,M2+C+Rrt,1.3219415855095715,north,imhr_da,forward fold
+2025-05,M2+C+Rfc,1.6434895046493272,north,imhr_da,forward fold
+2025-05,EX,1.1505861620359712,north,imhr_da,forward fold
+2025-06,M2+Rrt,1.3157789008656116,north,imhr_da,forward fold
+2025-06,M2+Rfc,1.5265597718121167,north,imhr_da,forward fold
+2025-06,M2+CS+Rfc,1.8061874940011067,north,imhr_da,forward fold
+2025-06,M2+C+Rrt,1.4149068947947914,north,imhr_da,forward fold
+2025-06,M2+C+Rfc,1.7399821162134885,north,imhr_da,forward fold
+2025-06,EX,1.3474828726907464,north,imhr_da,forward fold
+2025-07,M2+Rrt,1.4148946835978071,north,imhr_da,forward fold
+2025-07,M2+Rfc,1.5857552340834629,north,imhr_da,forward fold
+2025-07,M2+CS+Rfc,1.6279937695250633,north,imhr_da,forward fold
+2025-07,M2+C+Rrt,1.3479973393124574,north,imhr_da,forward fold
+2025-07,M2+C+Rfc,1.5969361290149233,north,imhr_da,forward fold
+2025-07,EX,1.2512063666061775,north,imhr_da,forward fold
+2025-08,M2+Rrt,1.3677859724172057,north,imhr_da,forward fold
+2025-08,M2+Rfc,1.5407313429136167,north,imhr_da,forward fold
+2025-08,M2+CS+Rfc,1.4894259010996818,north,imhr_da,forward fold
+2025-08,M2+C+Rrt,1.2342699773592973,north,imhr_da,forward fold
+2025-08,M2+C+Rfc,1.4579332686419981,north,imhr_da,forward fold
+2025-08,EX,1.2066044683764616,north,imhr_da,forward fold
+2025-09,M2+Rrt,1.3522854659871861,north,imhr_da,forward fold
+2025-09,M2+Rfc,1.4857009547580509,north,imhr_da,forward fold
+2025-09,M2+CS+Rfc,1.3778106967338033,north,imhr_da,forward fold
+2025-09,M2+C+Rrt,1.1750314327263511,north,imhr_da,forward fold
+2025-09,M2+C+Rfc,1.3615252279714984,north,imhr_da,forward fold
+2025-09,EX,1.2096640045944191,north,imhr_da,forward fold
+2025-10,M2+Rrt,1.2945876858171395,north,imhr_da,forward fold
+2025-10,M2+Rfc,1.4072709358520687,north,imhr_da,forward fold
+2025-10,M2+CS+Rfc,1.4381251183439079,north,imhr_da,forward fold
+2025-10,M2+C+Rrt,1.2514646440581787,north,imhr_da,forward fold
+2025-10,M2+C+Rfc,1.4377730308823575,north,imhr_da,forward fold
+2025-10,EX,1.295817985415751,north,imhr_da,forward fold
+2025-11,M2+Rrt,1.2845327191018618,north,imhr_da,forward fold
+2025-11,M2+Rfc,1.4278528609858514,north,imhr_da,forward fold
+2025-11,M2+CS+Rfc,1.557999657440313,north,imhr_da,forward fold
+2025-11,M2+C+Rrt,1.3718279832979672,north,imhr_da,forward fold
+2025-11,M2+C+Rfc,1.554689916032608,north,imhr_da,forward fold
+2025-11,EX,1.3886761218463843,north,imhr_da,forward fold
+2025-12,M2+Rrt,1.263906816525147,north,imhr_da,forward fold
+2025-12,M2+Rfc,1.4190501963823812,north,imhr_da,forward fold
+2025-12,M2+CS+Rfc,1.664213114961477,north,imhr_da,forward fold
+2025-12,M2+C+Rrt,1.4621822739340522,north,imhr_da,forward fold
+2025-12,M2+C+Rfc,1.6671090258086987,north,imhr_da,forward fold
+2025-12,EX,1.4143378709763748,north,imhr_da,forward fold
+fit 2024,M2+Rrt,2.958651069819391,north,imhr_da,2024 full
+fit 2024,M2+Rfc,3.2350307994652105,north,imhr_da,2024 full
+fit 2024,M2+CS+Rfc,3.882779113070529,north,imhr_da,2024 full
+fit 2024,M2+C+Rrt,3.2330180972258318,north,imhr_da,2024 full
+fit 2024,M2+C+Rfc,3.9627623554908333,north,imhr_da,2024 full
+fit 2024,EX,3.7949845365505306,north,imhr_da,2024 full
+2025-04,M2+Rrt,0.8162055163225679,south,imhr_da,forward fold
+2025-04,M2+Rfc,0.9585274063553698,south,imhr_da,forward fold
+2025-04,M2+CS+Rfc,1.3409924930063122,south,imhr_da,forward fold
+2025-04,M2+C+Rrt,1.0119339469012558,south,imhr_da,forward fold
+2025-04,M2+C+Rfc,1.2728178013292935,south,imhr_da,forward fold
+2025-04,EX,0.5886874294488094,south,imhr_da,forward fold
+2025-05,M2+Rrt,0.8575020237351653,south,imhr_da,forward fold
+2025-05,M2+Rfc,1.025164840733128,south,imhr_da,forward fold
+2025-05,M2+CS+Rfc,1.2970338716015668,south,imhr_da,forward fold
+2025-05,M2+C+Rrt,0.9703855411721634,south,imhr_da,forward fold
+2025-05,M2+C+Rfc,1.2030204804120075,south,imhr_da,forward fold
+2025-05,EX,0.6764589840573024,south,imhr_da,forward fold
+2025-06,M2+Rrt,0.9903641115600101,south,imhr_da,forward fold
+2025-06,M2+Rfc,1.1628465483010502,south,imhr_da,forward fold
+2025-06,M2+CS+Rfc,1.2670970664945185,south,imhr_da,forward fold
+2025-06,M2+C+Rrt,0.9738903364202443,south,imhr_da,forward fold
+2025-06,M2+C+Rfc,1.1709396217144472,south,imhr_da,forward fold
+2025-06,EX,0.8380254912753766,south,imhr_da,forward fold
+2025-07,M2+Rrt,0.9830320440629683,south,imhr_da,forward fold
+2025-07,M2+Rfc,1.1379623451921992,south,imhr_da,forward fold
+2025-07,M2+CS+Rfc,1.0615091463773194,south,imhr_da,forward fold
+2025-07,M2+C+Rrt,0.8208339993169231,south,imhr_da,forward fold
+2025-07,M2+C+Rfc,0.9828677367809471,south,imhr_da,forward fold
+2025-07,EX,0.7480143170643654,south,imhr_da,forward fold
+2025-08,M2+Rrt,0.9390260572981055,south,imhr_da,forward fold
+2025-08,M2+Rfc,1.1036379035409154,south,imhr_da,forward fold
+2025-08,M2+CS+Rfc,0.9817344025673145,south,imhr_da,forward fold
+2025-08,M2+C+Rrt,0.7578795276947418,south,imhr_da,forward fold
+2025-08,M2+C+Rfc,0.9256698784942783,south,imhr_da,forward fold
+2025-08,EX,0.7383897264413495,south,imhr_da,forward fold
+2025-09,M2+Rrt,0.9533271516499005,south,imhr_da,forward fold
+2025-09,M2+Rfc,1.0946266016838284,south,imhr_da,forward fold
+2025-09,M2+CS+Rfc,1.004420786365372,south,imhr_da,forward fold
+2025-09,M2+C+Rrt,0.7620845404776605,south,imhr_da,forward fold
+2025-09,M2+C+Rfc,0.9458807132143501,south,imhr_da,forward fold
+2025-09,EX,0.81178739703888,south,imhr_da,forward fold
+2025-10,M2+Rrt,0.9014993692195065,south,imhr_da,forward fold
+2025-10,M2+Rfc,1.0279796618565857,south,imhr_da,forward fold
+2025-10,M2+CS+Rfc,1.0532912490622433,south,imhr_da,forward fold
+2025-10,M2+C+Rrt,0.8162549179472015,south,imhr_da,forward fold
+2025-10,M2+C+Rfc,1.0020592962423072,south,imhr_da,forward fold
+2025-10,EX,0.881641736698864,south,imhr_da,forward fold
+2025-11,M2+Rrt,0.9598345669290046,south,imhr_da,forward fold
+2025-11,M2+Rfc,1.1138029944285837,south,imhr_da,forward fold
+2025-11,M2+CS+Rfc,1.1474696016768324,south,imhr_da,forward fold
+2025-11,M2+C+Rrt,0.9329036859168043,south,imhr_da,forward fold
+2025-11,M2+C+Rfc,1.1174697457069525,south,imhr_da,forward fold
+2025-11,EX,1.0026112275216321,south,imhr_da,forward fold
+2025-12,M2+Rrt,0.997858885930703,south,imhr_da,forward fold
+2025-12,M2+Rfc,1.1638572136269765,south,imhr_da,forward fold
+2025-12,M2+CS+Rfc,1.2057537243514895,south,imhr_da,forward fold
+2025-12,M2+C+Rrt,1.0031311837209673,south,imhr_da,forward fold
+2025-12,M2+C+Rfc,1.2052030791856139,south,imhr_da,forward fold
+2025-12,EX,1.0251609126483885,south,imhr_da,forward fold
+fit 2024,M2+Rrt,2.9758020227951687,south,imhr_da,2024 full
+fit 2024,M2+Rfc,3.2660414564129887,south,imhr_da,2024 full
+fit 2024,M2+CS+Rfc,3.4571481004166613,south,imhr_da,2024 full
+fit 2024,M2+C+Rrt,2.765645622839011,south,imhr_da,2024 full
+fit 2024,M2+C+Rfc,3.537473837806866,south,imhr_da,2024 full
+fit 2024,EX,3.3445392272313015,south,imhr_da,2024 full
+2025-04,M2+Rrt,1.1668396151686173,west,imhr_da,forward fold
+2025-04,M2+Rfc,1.30602889417647,west,imhr_da,forward fold
+2025-04,M2+CS+Rfc,1.1873434302861285,west,imhr_da,forward fold
+2025-04,M2+C+Rrt,0.9643426549604055,west,imhr_da,forward fold
+2025-04,M2+C+Rfc,1.228206793100051,west,imhr_da,forward fold
+2025-04,EX,0.8995245934502114,west,imhr_da,forward fold
+2025-05,M2+Rrt,1.0496557178373935,west,imhr_da,forward fold
+2025-05,M2+Rfc,1.166145746864522,west,imhr_da,forward fold
+2025-05,M2+CS+Rfc,1.2918622259419872,west,imhr_da,forward fold
+2025-05,M2+C+Rrt,1.1148692382074086,west,imhr_da,forward fold
+2025-05,M2+C+Rfc,1.3258683226181676,west,imhr_da,forward fold
+2025-05,EX,1.0511558257932556,west,imhr_da,forward fold
+2025-06,M2+Rrt,0.9904442782909962,west,imhr_da,forward fold
+2025-06,M2+Rfc,1.0976498663185903,west,imhr_da,forward fold
+2025-06,M2+CS+Rfc,1.3899100158747746,west,imhr_da,forward fold
+2025-06,M2+C+Rrt,1.1572577493539722,west,imhr_da,forward fold
+2025-06,M2+C+Rfc,1.3575799362557646,west,imhr_da,forward fold
+2025-06,EX,1.132475084386472,west,imhr_da,forward fold
+2025-07,M2+Rrt,0.8423364556105684,west,imhr_da,forward fold
+2025-07,M2+Rfc,0.9775996471025077,west,imhr_da,forward fold
+2025-07,M2+CS+Rfc,1.3420579799048173,west,imhr_da,forward fold
+2025-07,M2+C+Rrt,1.091369089997023,west,imhr_da,forward fold
+2025-07,M2+C+Rfc,1.3084824533723052,west,imhr_da,forward fold
+2025-07,EX,1.0361065312327171,west,imhr_da,forward fold
+2025-08,M2+Rrt,0.6197847088352917,west,imhr_da,forward fold
+2025-08,M2+Rfc,0.8118817238282258,west,imhr_da,forward fold
+2025-08,M2+CS+Rfc,1.3369264895415076,west,imhr_da,forward fold
+2025-08,M2+C+Rrt,1.0307434433966163,west,imhr_da,forward fold
+2025-08,M2+C+Rfc,1.2353979974214955,west,imhr_da,forward fold
+2025-08,EX,0.976336058559879,west,imhr_da,forward fold
+2025-09,M2+Rrt,0.5388169724765282,west,imhr_da,forward fold
+2025-09,M2+Rfc,0.7010097156525014,west,imhr_da,forward fold
+2025-09,M2+CS+Rfc,1.3358576750652333,west,imhr_da,forward fold
+2025-09,M2+C+Rrt,0.9156853319226419,west,imhr_da,forward fold
+2025-09,M2+C+Rfc,1.0923720744697047,west,imhr_da,forward fold
+2025-09,EX,0.8985019029404362,west,imhr_da,forward fold
+2025-10,M2+Rrt,0.48105076252862466,west,imhr_da,forward fold
+2025-10,M2+Rfc,0.6413969695877426,west,imhr_da,forward fold
+2025-10,M2+CS+Rfc,1.3365921348490795,west,imhr_da,forward fold
+2025-10,M2+C+Rrt,0.9602262039748111,west,imhr_da,forward fold
+2025-10,M2+C+Rfc,1.1536450184781926,west,imhr_da,forward fold
+2025-10,EX,0.96105150465879,west,imhr_da,forward fold
+2025-11,M2+Rrt,0.435062848088946,west,imhr_da,forward fold
+2025-11,M2+Rfc,0.6389957599913738,west,imhr_da,forward fold
+2025-11,M2+CS+Rfc,1.4706571900245224,west,imhr_da,forward fold
+2025-11,M2+C+Rrt,1.0897298702621834,west,imhr_da,forward fold
+2025-11,M2+C+Rfc,1.3127458740924496,west,imhr_da,forward fold
+2025-11,EX,1.0484165149298943,west,imhr_da,forward fold
+2025-12,M2+Rrt,0.5049849596424371,west,imhr_da,forward fold
+2025-12,M2+Rfc,0.7319900432681381,west,imhr_da,forward fold
+2025-12,M2+CS+Rfc,1.5614120441364252,west,imhr_da,forward fold
+2025-12,M2+C+Rrt,1.191697840472946,west,imhr_da,forward fold
+2025-12,M2+C+Rfc,1.4778361394484008,west,imhr_da,forward fold
+2025-12,EX,1.057233464581346,west,imhr_da,forward fold
+fit 2024,M2+Rrt,2.6889736050518342,west,imhr_da,2024 full
+fit 2024,M2+Rfc,3.070284801371465,west,imhr_da,2024 full
+fit 2024,M2+CS+Rfc,5.736663921884791,west,imhr_da,2024 full
+fit 2024,M2+C+Rrt,4.783293206163252,west,imhr_da,2024 full
+fit 2024,M2+C+Rfc,5.775574360006925,west,imhr_da,2024 full
+fit 2024,EX,4.388535480112573,west,imhr_da,2024 full

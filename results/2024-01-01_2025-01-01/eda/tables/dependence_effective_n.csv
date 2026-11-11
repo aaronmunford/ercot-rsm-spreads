@@ -1,0 +1,5 @@
+zone,n,neff_spread,neff_abs_spread,neff_rt_intrahour_std,neff_temp_f,neff_load_mw,neff_gas_price,distinct_gas_values,operating_days
+houston,8784,1635,1515,3225,76,91,87,141,366
+north,8784,1529,1445,3354,70,98,87,141,366
+south,8784,1627,1320,2200,79,105,87,141,366
+west,8784,1409,1375,3253,76,88,87,141,366
