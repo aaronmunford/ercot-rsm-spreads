@@ -5,7 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ercot-rsm"
 version = "0.1.0"
-description = "Response surface regression of ERCOT zonal DA-RT spreads and implied heat rates on temperature and load"
+description = "Response surface regression of ERCOT zonal DA-RT spreads and implied heat rates on temperature, load and natural gas prices"
+readme = "README.md"
+authors = [{ name = "Aaron Munford" }]
 requires-python = ">=3.10"
 dependencies = [
   "numpy>=1.26",

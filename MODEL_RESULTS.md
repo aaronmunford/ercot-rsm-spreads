@@ -194,7 +194,7 @@ A −4.9 GW (5th-percentile, looser-than-forecast) surprise does the reverse: in
 
 **Interpretation.** What DA-time information carries is about the *scale* of spread risk, not its sign. That matches the structure of the realised-condition results.
 
-## What this changes in the story
+## What this changes
 
 The realised T, L and G surface could not explain the signed spread. The reason is that the spread prices the *deviation from expectations*, and the realised conditions were largely expected.
 - **Supply surprises** count on both conditions in all zones, and so does the **interaction of the net-load surprise with expected tightness**.
@@ -222,6 +222,8 @@ The realised T, L and G surface could not explain the signed spread. The reason 
 - **Load gap.** The gridstatus-vs-native-load gap is +343 MW in 2024, against +704 MW in 2025. That fits the battery-charging explanation (D-22), but does not prove it.
 
 ## What replicates (same direction in every zone, both years) [replication.csv]
+
+The 2024 rows for the surprise models (group D, S and its interaction) use only 24 September to 31 December 2024 (2,364 hours), because ERCOT's available-capacity forecasts are incomplete before then. They are a partial check, not a full-year replication; the report therefore treats the surprise results as unreplicated.
 
 | Finding | 2024 | 2025 |
 |---|---|---|
@@ -267,7 +269,7 @@ winter. `out_of_year.csv` records each model's training count and dates.
 - 2025's combinations of temperature, load and gas mostly lie *outside* what 2024 observed, so a quadratic fitted on one year extrapolates badly into the next.
 - This is the practical cost of the collinear, seasonal factor design flagged in D-26. It is also exactly why the report reads surfaces only inside the data hull.
 
-**Why S succeeds.** S is the only specification that transfers across years. Its two factors (the net-load surprise and the expected net load) span almost the same region in both years, and its relationship has the same sign.
+**Why S succeeds.** S is the only specification that transfers across years, although its training sample covers only autumn and early winter 2024. Its two factors (the net-load surprise and the expected net load) span almost the same region in both years, and its relationship has the same sign.
 
 **What still holds.** None of this is a trading result: every factor except the forecast is realised ex post (D-25).
 

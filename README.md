@@ -2,8 +2,8 @@
 
 *The role of temperature, electricity demand and natural gas prices* — Aaron Munford, New York University, October 2026.
 
-**📄 Report: [`reports/report_v2.pdf`](reports/report_v2.pdf)** (10 pages).
-**📓 Notebooks:** [`notebooks/01_research_log.ipynb`](notebooks/01_research_log.ipynb) (the dated research log) and [`notebooks/02_analysis.ipynb`](notebooks/02_analysis.ipynb) (the analysis, recomputing every table and figure in the report).
+**Report: [`reports/report_v2.pdf`](reports/report_v2.pdf)** (10 pages).
+**Notebooks:** [`notebooks/01_research_log.ipynb`](notebooks/01_research_log.ipynb) (the dated research log) and [`notebooks/02_analysis.ipynb`](notebooks/02_analysis.ipynb) (the analysis, recomputing every table and figure in the report).
 
 The study uses every hour of 2025 for ERCOT's Houston, North, South and West load zones. For each zone it builds:
 - the day-ahead (DA) minus real-time (RT) price spread;
@@ -49,7 +49,7 @@ It then fits second-order response surface regressions (NCSS Chapter 330) in tem
 | [`notebooks/01_research_log.ipynb`](notebooks/01_research_log.ipynb) | Dated research log: what was done, decided and learned |
 | [`notebooks/02_analysis.ipynb`](notebooks/02_analysis.ipynb) | The analysis in the report's order, with every table and figure recomputed |
 | [`DATA.md`](DATA.md) | Sources, alignment, validation and data dictionary |
-| [`DECISIONS.md`](DECISIONS.md) | Every modelling choice with its alternatives (D-01 to D-35) |
+| [`DECISIONS.md`](DECISIONS.md) | Every modelling choice with its alternatives (D-01 to D-36) |
 | [`EDA_FINDINGS.md`](EDA_FINDINGS.md) | Exploratory results, with the CSV behind each number |
 | [`MODEL_RESULTS.md`](MODEL_RESULTS.md) | RSM, surprise models, 2024 replication, West basis decomposition |
 | [`LITERATURE.md`](LITERATURE.md) | Verified references and what each motivates |
@@ -68,7 +68,7 @@ src/ercot_rsm/
 notebooks/              research log and analysis notebook
 results/<window>/       every table and figure, as CSV and PNG (report inputs under report/)
 experiments/            isolated experiments that do not touch the report
-tests/                  pytest (125 tests, no network)
+tests/                  pytest (127 tests, no network)
 ```
 
 ## Reproducing
@@ -79,7 +79,7 @@ pip install -e '.[dev]'
 cp .env.example .env            # add a free gridstatus.io API key
 set -a; source .env; set +a
 
-make test                       # 125 tests, no network
+make test                       # 127 tests, no network
 make fetch crosscheck build audit   # pull every source (settled prices, load, forecasts, weather, gas) and the cross-check series, then assemble and audit the 2025 panel (cached; re-runs cost nothing)
 make eda fit surprise basis     # exploratory tables, model ladder and extensions -> results/<window>/
 make report-assets              # the report's tables and five figures -> results/<window>/report/
